@@ -26,8 +26,11 @@ export default function Home() {
         <p>Different than a college or university, the British Columbia Institute of Technology offers practical, 
             flexible, applied education with instructors who have direct, hands-on experience in their field.</p>
         </div>
-
-        
+          <div>
+            <a href="about.js"><button>More About Us</button></a>
+            <a href="contact.js"><button>Contact Us</button></a>
+          </div>
+        <a><span><img src=""/></span></a>
       </main>
     </>
   )
