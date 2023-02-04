@@ -27,10 +27,14 @@ export default function Home() {
             flexible, applied education with instructors who have direct, hands-on experience in their field.</p>
         </div>
           <div>
-            <a href="about.js"><button>More About Us</button></a>
-            <a href="contact.js"><button>Contact Us</button></a>
+            <a href="about"><button>More About Us</button></a>
+            <a href="contact"><button>Contact Us</button></a>
           </div>
-        <a><span><img src=""/></span></a>
+          <a href="/">
+            <span>
+              <img src="icons/downwardArrow.png" alt="Down Arrow" />
+            </span>
+          </a>
       </main>
     </>
   )
