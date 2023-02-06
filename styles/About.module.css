@@ -1,0 +1,11 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100vh;
+    background-image:url("/public/bg/backgroundMountain.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 2em;
+}

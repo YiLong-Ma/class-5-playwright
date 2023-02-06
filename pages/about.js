@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Link from "next/link"
-import styles from "../styles/Home.module.css";
+import styles from "../styles/About.module.css";
+import Carousel from '../components/Carousel';
 
 export default function About() {
     return (
@@ -12,7 +13,7 @@ export default function About() {
                 <meta property='og:description' content="BCIT Digital Design and Development Diploma" />
                 <link rel="icon" href="/favicon.png" />
             </Head>
-            <main>
+            <main className={styles.main}>
                 <header>Header</header>
                 <div>
                     <h1>About Us</h1>
@@ -34,6 +35,26 @@ export default function About() {
                 <div>
                     <h3></h3>
                 </div>
+
+                <Carousel> </Carousel>
+                <a href="/">
+                    <span>
+                        <img src="icons/upwardArrow.png" alt="Down Arrow" />
+                    </span>
+                </a>
+                <a href="/">
+                    <span>
+                        <img src="icons/downwardArrow.png" alt="up Arrow" />
+                    </span>
+                </a>
+                <ul>
+                    <li>Applied & Natural Sciences</li>
+                    <li>Business & Media</li>
+                    <li>Computing & IT</li>
+                    <li>Engineerin</li>
+                    <li>Health Sciences</li>
+                    <li>Trades & Apprenticeships</li>
+                </ul>
             </main>
         </>
     )
